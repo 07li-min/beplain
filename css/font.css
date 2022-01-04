@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Pretendard Variable';
+  font-style: none;
+  font-weight: 800;
+  src: local('Pretendard Variable Bold'), local('Pretendard Variable-B'),
+  /* url(/portfolio/font/Pretendard_Variable/Pretendard-Bold.woff2) format('woff2')} */
+  url(../font/Pretendard_Variable/Pretendard-Bold.woff2) format('woff2')}
+
+@font-face {
+  font-family: 'PretendardVariable';
+  font-style: none;
+  font-weight: 700;
+  src: local('Pretendard Variable SemiBold'), local('Pretendard Variable-SB'),
+  url(../font/Pretendard_Variable/Pretendard-SemiBold.woff2) format('woff2')}
+
+@font-face {
+  font-family: 'PretendardVariable';
+  font-style: none;
+  font-weight: 600;
+  src: local('Pretendard Variable Medium'), local('Pretendard Variable-M'),
+  url(../font/Pretendard_Variable/Pretendard-Medium.woff2) format('woff2')}
+
+@font-face {
+  font-family: 'PretendardVariable';
+  font-style: none;
+  font-weight: 400;
+  src: local('Pretendard Variable Regular'), local('Pretendard Variable-R'),
+  url(../font/Pretendard_Variable/Pretendard-Regular.woff2) format('woff2')}
+
+@font-face {
+  font-family: 'PretendardVariable';
+  font-style: none;
+  font-weight: 200;
+  src: local('Pretendard Variable Light'), local('Pretendard Variable-L'),
+  url(../font/Pretendard_Variable/Pretendard-Light.woff2) format('woff2')}
+
+
+
