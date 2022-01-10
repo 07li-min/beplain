@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  AOS.init();
+  AOS.init({
+    duration: 3000
+  });
+
 
   $('.trouble .recom-list').slick({
     dots: true,
