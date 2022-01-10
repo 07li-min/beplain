@@ -147,7 +147,6 @@ html{scroll-behavior: smooth;}
   width: 104%;
   height: 60%;
   opacity: 0.5;
-  /* background-color: #cfdbcc; */
   background-color: #d5e7d0;
 }
 
@@ -263,7 +262,6 @@ html{scroll-behavior: smooth;}
 
 .event2 .pc .img-area {padding-bottom: 20em; position: relative;}
 .event2 .pc .img-area .img {position:absolute;}
-/* .event2 .pc .img-area .img1 {right: 0px; top:0; } */
 .event2 .pc .img-area .img1 {right: 0px; top:-360px; }
 .event2 .pc .img-area .img1::after{
   content: "";
@@ -273,7 +271,6 @@ html{scroll-behavior: smooth;}
   position: absolute;
   top: -50px; right: -50px;
 }
-/* .event2 .pc .img-area .img2 {left: -20px; bottom: -80px;} */
 .event2 .pc .img-area .img2 {left: -35px; bottom: -80px;}
 .event2 .pc .img-area .img2::after{
   content: "";
@@ -389,7 +386,6 @@ html{scroll-behavior: smooth;}
 .recom .tab-content {position: relative;}
 .recom .tab-content > div {position: absolute; top: 0; left: 0; right: 0;}
 .recom .tab-content .tmp-off {opacity: 0; visibility: hidden;}
-/* .recom .recom-list {width: 980px; margin: 0 auto;} */
 .recom .recom-list {width: 880px; margin: 0 auto;}
 .recom .recom-list .tmp-flex {display: flex; 
   justify-content: center;
@@ -541,7 +537,6 @@ html{scroll-behavior: smooth;}
   background-color: transparent;
   border-top: 2px solid #fff;
 }
-/* .recom .list-item .txt-area .txt-box a:hover{transform: scale(1.1);} */
 
 .recom .slick-slider .slick-arrow{
   font: 0/0 a; 
@@ -785,9 +780,7 @@ html{scroll-behavior: smooth;}
   .txt-tit {font-size: 30px;}
 
   .hd .pc-gnb {opacity: 0; visibility: hidden;}
-  /* .hd .mob-gnb {opacity: 0; visibility: hidden;} */
   .hd .toggle-btn {opacity: 1; visibility: visible;}
-  /*mob-menu : active */
   .hd .mob-gnb.active {opacity: 1; visibility: visible;}
   .hd .mob-gnb.active .gnb-box{transform: translateX(0%); opacity: 1; border-radius: 0% 0% 0% 0%;}
   .hd .mob-gnb.active::before {opacity: 1; visibility: visible;}
@@ -883,7 +876,7 @@ html{scroll-behavior: smooth;}
   .recom .moisture .list-item .txt-area .sub{display: none;}
   .recom .moisture .list-item .txt-area .txt-box{left: 0; width: 480px; background-position: 15em 50%;}
 
-  /* FAQ *//
+  /* FAQ */
   .faq .faq-deco span:nth-child(1){width: 300px;}
   .faq .faq-deco span:nth-child(2){width: 140px;}
   .faq .q-body {padding: 15px 70px 15px 15px; word-break: keep-all;}
@@ -940,7 +933,7 @@ html{scroll-behavior: smooth;}
 
   .instagram .tmp-wrap {border-radius: 55px; overflow: hidden;}
   .instagram .insta-list { padding: 40px 0;}
-  .instagram .insta-list .step { margin: 0; }  /* 2번이 찌그러짐*/
+  .instagram .insta-list .step { margin: 0; }  
   .instagram .insta-list .slick-slider{width: 300px;}
   .instagram .slick-slider .slick-arrow{opacity: 0; visibility: hidden; width: 0; height: 0;}
   .instagram .slick-slider .slick-dots {
@@ -972,8 +965,6 @@ html{scroll-behavior: smooth;}
     border-right: 2px solid #b8ae9d;
   }
   .recom .trouble .main-txt, .recom .moisture .main-txt {font-size: 23px; background-size: 12.5em 30px;}
-  /* .recom .moisture .main-txt {font-size: 23px; background-size: 12.5em 30px;} */
-
   .recom .tab-content {min-height: 840px;}
   .recom .recom-list {width: 300px;}
   .recom .slick-slider .slick-arrow{opacity: 0; visibility:hidden; display: none;}
@@ -1004,7 +995,6 @@ html{scroll-behavior: smooth;}
 
 
   /* FAQ */
-  /* .faq .inner {width: 340px;} */
   .faq .list-item .q-head {font-size: 15px; padding: 15px 6px;}
   .faq .list-item .q-body {font-size: 15px;  padding: 15px 30px 15px 15px;; line-height: 18px;}
 
@@ -1024,7 +1014,6 @@ html{scroll-behavior: smooth;}
 
 
   /* modal */
-  /* 화면조정 및 가운데정렬 */
   .modal .modal-box {width: 90%; height: auto;}
   .modal .box-item{height: auto;}
   
@@ -1044,9 +1033,6 @@ html{scroll-behavior: smooth;}
   .modal .click-box{list-style: 45px; bottom: 0;}
   .modal .content .click-box {line-height: 50px;}
   .modal .content .click-box p{font-size: 22px;}
-
-
-  /* 바디에 스크롤 막는 방법 */
   .not_scroll{
     position: fixed;
     overflow: hidden;
@@ -1057,10 +1043,6 @@ html{scroll-behavior: smooth;}
     position: relative;
     top: 0;
   }
-
-
-
-
 
 
 }
