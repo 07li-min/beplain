@@ -317,8 +317,6 @@ html{scroll-behavior: smooth;}
 
 .tmp-btn:hover .text{color: #fff;}
 .tmp-btn .text{font-size: 18px;}
-.tmp-btn .text, .tmp-btn .icon-container {position: relative; z-index: 2;}
-
 .recom{
   height: 1100px;
   background-image: url('../img/contents/cont-bn.png');
@@ -838,11 +836,6 @@ html{scroll-behavior: smooth;}
   .instagram .insta-list .mob-item .txt-desc{padding: 25px 0 35px 0; word-break: keep-all;}
   .instagram .insta-list .tmp-btn{width: 295px;}
   .instagram .insta-list .tmp-btn .text{font-size: 15px;}
-  .instagram .insta-list .tmp-btn:hover::after{transform: translateX(80%);}
-  .instagram .insta-list .tmp-btn:hover .icon-container{transform: translateX(60%); }
-  .tmp-btn .icon-container .icon-left{transform: translateX(-33%);}
-  .tmp-btn .icon-container {width: 38px;}
-
   .recom .recom-logo img {width: 90%; padding-top: 70px;}
   .recom .trouble-btn, .recom .moisture-btn {font-size: 18px; margin: 40px 5px; }
   .recom .trouble-btn {padding: 10px 0px 10px 30px;}
