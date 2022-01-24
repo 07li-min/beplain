@@ -1,23 +1,18 @@
-/* 구별 */
+
 html{scroll-behavior: smooth;}
 .wrap {background-color: #f5f5f4;  margin: 0 auto; max-width: 1920px;}
 .inner {max-width: 1200px; margin: 0 auto; padding: 0 20px;}
 
-/* hd */
+
 .hd {position: absolute; z-index: 999; margin: 0 auto; left: 0; right: 0;}
 .hd .inner {max-width: 1400px; line-height: 70px; position: relative;}
 .hd .logo img {width: 120px; height: 100%; transition: all 0.3s ease;}
-
 .hd .pc-gnb {opacity: 1;visibility: visible;}
 .hd .mob-gnb {opacity: 0; visibility: hidden;}
 .hd .toggle-btn {opacity: 0; visibility: hidden;}
-
-/* pc-menu */
 .hd .pc-menu .gnb {display: flex; position: absolute; right: 0; top: 0;}
 .hd .pc-menu .gnb li > a{display: block; font-size: 19px; ; padding: 0 15px; transition: all 0.3s ease;}
 
-
-/* mob-menu */
 .hd .mob-gnb{
   position: fixed;
   height: 100%; 
@@ -25,7 +20,6 @@ html{scroll-behavior: smooth;}
   top: 0;
   transition: all 0.3s ease;
 }
-
 .hd .mob-gnb .dep {
   display: block;
   color: #000;
@@ -49,7 +43,6 @@ html{scroll-behavior: smooth;}
 .hd .mob-gnb .dep:nth-child(3):hover:before{width: 72%;}
 .hd .mob-gnb .dep:nth-child(4):hover:before{width: 52%;}
 .hd .mob-gnb .dep:nth-child(5):hover:before{width: 60%;}
-
 .hd .mob-gnb .gnb-box{
   height: 100%;
   width: 250px;
@@ -72,7 +65,6 @@ html{scroll-behavior: smooth;}
   z-index: -1;
 }
 
-/* 토글버튼 */
 .hd .toggle-btn {
   display: flex;
   width: 60px;
@@ -120,8 +112,6 @@ html{scroll-behavior: smooth;}
 .mob-menu .sns-box .fa-instagram{background-image: url(../img/icon/ico_instagram_back.png); background-repeat: no-repeat; background-size: cover;}
 
 
-
-/* banner */
 .banner {
   background-image: url('../img/main_kv.png');
   background-repeat: no-repeat;
@@ -131,7 +121,6 @@ html{scroll-behavior: smooth;}
   transition: all 0.3s ease;
 }
 
-/* content main */
 .main {margin-top: 130px;}
 .main .inner {margin-bottom: 14em;}
 .main .main-item {display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
@@ -147,15 +136,13 @@ html{scroll-behavior: smooth;}
   width: 104%;
   height: 60%;
   opacity: 0.5;
-  /* background-color: #cfdbcc; */
   background-color: #d5e7d0;
 }
-
 .main .main-item .txt-area .txt-desc {
   font-size: 24px;
   font-family: 'Pretendard Variable Light'; 
-  margin-bottom: 23px; }
-
+  margin-bottom: 23px;
+}
 .main .main-item .img-area {position: relative;}
 .main .main-item .img-area .img1 > img {width: 480px; height: 550px;}
 .main .main-item .img-area .img2 {
@@ -165,9 +152,6 @@ html{scroll-behavior: smooth;}
 }
 
 
-
-
-/* event 1*/
 .event1 .inner {margin-bottom: 14em;}
 .event1 .img-item .evt-header {
   position:absolute;
@@ -180,7 +164,6 @@ html{scroll-behavior: smooth;}
 .event1 .img-item .img-area > img {width: 600px; }
 .event1 .img-item .img-area p {padding: 10px 0; color: #888; font-size: 15px;}
 .event1 .img-item .img-area p > img {padding: 0 3px;}
-
 .event1 .txt-item .txt-area .txt-label {
   font-size: 25px; 
   font-weight: 500; 
@@ -245,7 +228,6 @@ html{scroll-behavior: smooth;}
 /* event 2*/
 .event2 .mob .img-area  {display: none;}
 .event2 .inner {margin-bottom: 20em; position: relative; }
-
 .event2 .evt-header { color: #b5ada3; font-size: 20px; font-weight: 700; margin-bottom: 30px;}
 .event2 .txt-item .txt-area .txt-tit {font-size: 28px; font-weight: 500; padding-bottom: 60px;}
 .event2 .txt-item .txt-area .txt-desc{font-size: 24px;  font-family: 'Pretendard Variable Light';}
@@ -263,7 +245,6 @@ html{scroll-behavior: smooth;}
 
 .event2 .pc .img-area {padding-bottom: 20em; position: relative;}
 .event2 .pc .img-area .img {position:absolute;}
-/* .event2 .pc .img-area .img1 {right: 0px; top:0; } */
 .event2 .pc .img-area .img1 {right: 0px; top:-360px; }
 .event2 .pc .img-area .img1::after{
   content: "";
@@ -273,7 +254,6 @@ html{scroll-behavior: smooth;}
   position: absolute;
   top: -50px; right: -50px;
 }
-/* .event2 .pc .img-area .img2 {left: -20px; bottom: -80px;} */
 .event2 .pc .img-area .img2 {left: -35px; bottom: -80px;}
 .event2 .pc .img-area .img2::after{
   content: "";
@@ -315,8 +295,6 @@ html{scroll-behavior: smooth;}
   margin: 25px 0 70px 0;
 }
 .instagram .insta-list .pc-item .step img {width: 80%;}
-
-/* 인스타 버튼*/
 .tmp-btn {
   width: 350px;
   height: 60px;
@@ -324,60 +302,23 @@ html{scroll-behavior: smooth;}
   position: relative;
   min-width: 180px;
   min-height: 60px;
-  border-radius: 60px;
+  border-radius: 50px;
   color: #666;
   font-weight: bold;
-  background: rgba(0, 0, 0, 0.05);
+  background: #fdfaf9;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  transition: all 0.5s ease;
 }
-.tmp-btn:hover .text{color: #666;}
-.tmp-btn .text{font-size: 18px; font-family: 'Pretendard Variable Light';}
+.tmp-btn:hover { box-shadow: 0px 80px 0px 0px #b69e9e inset;}
+
+.tmp-btn:hover .text{color: #fff;}
+.tmp-btn .text{font-size: 18px;}
 .tmp-btn .text, .tmp-btn .icon-container {position: relative; z-index: 2;}
 
-.tmp-btn .icon-container {
-  position: relative;
-  width: 25px;
-  height: 17px;
-  margin-left: 15px;
-  transition: transform 500ms ease;
-  transform: translateX(0%);
-}
-.tmp-btn .icon-container .icon {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 25px;
-  height: 25px;
-  transition: transform 500ms ease, opacity 250ms ease;
-}
-
-.tmp-btn .icon-container .icon-left {transform: translateX(-70%); opacity: 0;}
-.tmp-btn .icon-container .icon svg {width: 100%; height: 100%; fill: rgb(255, 238, 238);}
-
-.tmp-btn::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #fff9f9;
-  border-radius: 60px;
-  z-index: 1;
-  transition: transform 500ms ease;
-}
-
-.tmp-btn:hover::after {transform: translateX(83%);}
-.tmp-btn:hover .icon-container {transform: translateX(125%);}
-.tmp-btn:hover .icon-container .icon-left {transform: translateX(2); opacity: 1;}
-.tmp-btn:hover .icon-container .icon-right {transform: translateX(200%); opacity: 0;}
-
-
-/* recommendation */
 .recom{
   height: 1100px;
   background-image: url('../img/contents/cont-bn.png');
@@ -389,14 +330,12 @@ html{scroll-behavior: smooth;}
 .recom .tab-content {position: relative;}
 .recom .tab-content > div {position: absolute; top: 0; left: 0; right: 0;}
 .recom .tab-content .tmp-off {opacity: 0; visibility: hidden;}
-/* .recom .recom-list {width: 980px; margin: 0 auto;} */
 .recom .recom-list {width: 880px; margin: 0 auto;}
 .recom .recom-list .tmp-flex {display: flex; 
   justify-content: center;
 }
 
 
-/* 탭버튼 */
 .recom .trouble-btn, 
 .recom .moisture-btn{ 
   font-size: 24px;
@@ -429,8 +368,6 @@ html{scroll-behavior: smooth;}
 .recom .trouble-btn.active::after, 
 .recom .moisture-btn.active::after { border-top: 2px solid #fafaf7; border-right: 2px solid #fafaf7;}
 
-
-/* 트러블케어 */
 .recom .trouble .main-txt {
   color: #fff; 
   font-size: 24px; 
@@ -443,7 +380,6 @@ html{scroll-behavior: smooth;}
   background-size: 13.3em 30px;
 }
 
-/* 사이드 공통 */
 .recom .trouble .list-item .txt-area {position: relative;}
 .recom .trouble .list-item .txt-area .txt-cont {
   margin-left: 20px;
@@ -462,18 +398,14 @@ html{scroll-behavior: smooth;}
 }
 .recom .trouble .list-item.item1 .txt-area .txt-cont {background-image: url('../img/contents/cont1/1-1.png');}
 .recom .trouble .list-item.item1 .txt-area .txt-side {left: 1.3em; top: 18%;}
-
 .recom .trouble .list-item.item2 .txt-area .txt-cont {background-image: url('../img/contents/cont1/2-1.png');}
 .recom .trouble .list-item.item2 .txt-area .txt-side {left: 1.3em; top: 28%;}
-
 .recom .trouble .list-item.item3 .txt-area .txt-cont {background-image: url('../img/contents/cont1/3-1.png');}
 .recom .trouble .list-item.item3 .txt-area .txt-side {left: 1.4em; top: 22%;}
-
 .recom .trouble .list-item.item4 .txt-area .txt-cont {background-image: url('../img/contents/cont1/4-1.png');}
 .recom .trouble .list-item.item4 .txt-area .txt-side {left: 1.3em; top: 28%;}
 
 
-/* 수분 케어 */
 .recom .moisture .main-txt {
   color: #fff; 
   font-size: 24px; 
@@ -486,7 +418,6 @@ html{scroll-behavior: smooth;}
   background-size: 13.3em 30px;
 }
 
-/* 사이드 공통 */
 .recom .moisture .list-item {display: flex; justify-content: center;}
 .recom .moisture .list-item .txt-area {position: relative;}
 .recom .moisture .list-item .txt-area .txt-cont {
@@ -506,18 +437,13 @@ html{scroll-behavior: smooth;}
 }
 .recom .moisture .list-item.item1 .txt-area .txt-cont {background-image: url('../img/contents/cont2/1-1.png');}
 .recom .moisture .list-item.item1 .txt-area .txt-side {left: 1.3em; top: 25%;}
-
 .recom .moisture .list-item.item2 .txt-area .txt-cont {background-image: url('../img/contents/cont2/2-1.png');}
 .recom .moisture .list-item.item2 .txt-area .txt-side {left: 1.3em; top: 28%;}
-
 .recom .moisture .list-item.item3 .txt-area .txt-cont {background-image: url('../img/contents/cont2/3-1.png');}
 .recom .moisture .list-item.item3 .txt-area .txt-side {left: 1.3em; top: 28%;}
-
 .recom .moisture .list-item.item4 .txt-area .txt-cont {background-image: url('../img/contents/cont2/6-1.png')}
 .recom .moisture .list-item.item4 .txt-area .txt-side {left: 1.3em; top: 25%;}
 
-
-/* recom: text (공통) */
 .recom .list-item .txt-area .txt-tit {font-size: 30px; font-weight: 700; padding-bottom: 30px;}
 .recom .list-item .txt-area .txt-tit span{font-size: 15px;}
 .recom .list-item .txt-area .txt-subtit {font-size: 28px; font-weight: 700; padding-bottom: 30px;}
@@ -541,7 +467,6 @@ html{scroll-behavior: smooth;}
   background-color: transparent;
   border-top: 2px solid #fff;
 }
-/* .recom .list-item .txt-area .txt-box a:hover{transform: scale(1.1);} */
 
 .recom .slick-slider .slick-arrow{
   font: 0/0 a; 
@@ -557,7 +482,6 @@ html{scroll-behavior: smooth;}
 }
 .recom .slick-slider .slick-prev {left: -35px; transform: translateX(0%) rotate(-45deg);}
 .recom .slick-slider .slick-next{right: -35px; transform: translateX(-50%) rotate(135deg);}
-
 .recom .slick-slider .slick-dots {display: flex; position: absolute; left: 0; right: 0; justify-content: center;}
 .recom .slick-slider .slick-dots li {margin: 15px 5px;}
 .recom .slick-slider .slick-dots button {
@@ -570,15 +494,11 @@ html{scroll-behavior: smooth;}
 .recom .slick-slider .slick-dots .slick-active button{ background-color: #bbb09b;}
 
 
-
-/*** FAQ ***/
 .faq { background-color: #fff; margin-top: -20px;}
 .faq .inner {width: 80%; max-width: 700px; padding: 120px 0;}
 .faq .txt-tit{text-align: center; padding-bottom: 70px; font-size: 35px; font-weight: 800; color: #9f9f9e;}
-
 .faq .list-item{border-top: 1px solid #c8c8c8; }
 .faq .list-item:nth-child(4){border-bottom: 1px solid #c8c8c8;}
-
 .q-head{font-size: 18px; padding: 15px 40px 15px 15px; cursor: pointer;}
 .q-body{
   display: none;
@@ -588,7 +508,6 @@ html{scroll-behavior: smooth;}
   padding: 15px 15px 15px 15px;
   background-color: #fafafa;
 }
-
 .faq .q-head .icon-q{position: relative;}
 .faq .q-head .icon-q::after{
   content: "";
@@ -611,8 +530,6 @@ html{scroll-behavior: smooth;}
 .faq .faq-deco span:nth-child(1){left: 0;}
 .faq .faq-deco span:nth-child(2){right: 0;}
 
-
-/* footer */
 .ft{height: 100%; background-color: #888 ; position: relative;}
 .ft .inner {width: 600px;}
 .ft .txt-area {padding: 80px 0; color: #fff; /* color: #e8e7e7; */}
@@ -625,9 +542,6 @@ html{scroll-behavior: smooth;}
   left: 0;
 }
 
-
-
-/* popup */
 #modal{
   position: fixed;
   left: 0; right: 0; top: 0; bottom: 0;
@@ -702,12 +616,8 @@ html{scroll-behavior: smooth;}
   background-color: #eed4ab;
   border: transparent;
 }
-.modal .content .click-box p{color: #fff; font-size: 25px;  }
+.modal .content .click-box p{color: #fff; font-size: 25px;}
 
-
-
-
-/* quick-btn */
 .quick{display: none;}
 .quick .inner{position: fixed; bottom: 50px; right: 50px;  color: #fff;}
 .quick .top-btn{
@@ -727,7 +637,6 @@ html{scroll-behavior: smooth;}
   background-position-y: 55%;
   transform: rotate(180deg);
 }
-
 .quick .q-menu i{
   text-align: center;
   font-size: 25px; 
@@ -748,7 +657,6 @@ html{scroll-behavior: smooth;}
   margin: 5px 0;
 }
 .quick .fab{opacity: 0; visibility: hidden; transition: all 0.7s ease;}
-
 .quick .fa-youtube{background-color: red;}
 .quick .fa-facebook-f{background-color: #0054a6;}
 .quick .fa-instagram{background-image: url(../img/icon/ico_instagram_back.png); background-repeat: no-repeat; background-size: cover;}
@@ -759,18 +667,7 @@ html{scroll-behavior: smooth;}
 
 
 
-
-
-
-
-
-
-
-
-
-/******** 모바일 ********/
 @media screen and (max-width:1100px){
-  /* mob-menu */
   .hd .logo img {width: 100px; height: 100%;}
   .hd .pc-menu .gnb li > a {font-size: 17px;}
   .banner {background-size:cover; height: 600px;}
@@ -785,9 +682,7 @@ html{scroll-behavior: smooth;}
   .txt-tit {font-size: 30px;}
 
   .hd .pc-gnb {opacity: 0; visibility: hidden;}
-  /* .hd .mob-gnb {opacity: 0; visibility: hidden;} */
   .hd .toggle-btn {opacity: 1; visibility: visible;}
-  /*mob-menu : active */
   .hd .mob-gnb.active {opacity: 1; visibility: visible;}
   .hd .mob-gnb.active .gnb-box{transform: translateX(0%); opacity: 1; border-radius: 0% 0% 0% 0%;}
   .hd .mob-gnb.active::before {opacity: 1; visibility: visible;}
@@ -801,15 +696,12 @@ html{scroll-behavior: smooth;}
     background-size: cover;
     height: 980px;
   }
-
-  /* main */
   .main .main-item .img-area .img1 > img{width: 600px; height: auto;}
   .main .main-item .img-area .img2 > img{width: 100%; height: auto;}
   .main .main-item .img-area .img2 {left: 8%; right: 8%;}
   .main .main-item .txt-area{margin: 120px 0 0 0px; width: 400px;}
   .main .main-item .txt-area .txt-tit{font-size: 28px;}
 
-  /* evt 1 */
   .event1 .txt-item {height: 630px;}
   .event1 .evt-list{flex-wrap: wrap; justify-content: center;}
   .event1 .txt-item .txt-area {width: 400px; }
@@ -817,7 +709,6 @@ html{scroll-behavior: smooth;}
   .event1 .img-item .img-area {padding-right:0px;}
 
 
-  /* evt 2 */
   .event2 .evt-list{flex-wrap: wrap-reverse; justify-content: center;}
   .event2 .pc .img-area {display: none;}
   .event2 .mob .img-area {display: block; position: relative;}
@@ -834,7 +725,6 @@ html{scroll-behavior: smooth;}
   .event2 .txt-item .txt-area .txt-desc:nth-child(4) {margin: 10px 0 -130px 0;}
 
 
-  /* 인스타그램 모바일*/
   .instagram .insta-list .pc-item{display: none;}
   .instagram .insta-list .mob-item{display: block;}
   .instagram .insta-list .mob-item {padding: 0; width: 50%;}
@@ -858,7 +748,6 @@ html{scroll-behavior: smooth;}
   }
   .instagram .slick-slider .slick-dots .slick-active button{ background-color: #a39692;}
 
-  /* 비플픽 */
   .recom{height: auto; background-size: cover;}
   .recom .tab-content {min-height: 1040px;}
   .recom .recom-list {width: 480px;}
@@ -883,7 +772,7 @@ html{scroll-behavior: smooth;}
   .recom .moisture .list-item .txt-area .sub{display: none;}
   .recom .moisture .list-item .txt-area .txt-box{left: 0; width: 480px; background-position: 15em 50%;}
 
-  /* FAQ *//
+
   .faq .faq-deco span:nth-child(1){width: 300px;}
   .faq .faq-deco span:nth-child(2){width: 140px;}
   .faq .q-body {padding: 15px 70px 15px 15px; word-break: keep-all;}
@@ -898,7 +787,6 @@ html{scroll-behavior: smooth;}
   .faq .faq-deco span:nth-child(1){width: 180px;}
   .faq .faq-deco span:nth-child(2){width: 90px;}
   .modal .content .click-box{bottom: -15px;}
-
 }
 
 
@@ -914,7 +802,7 @@ html{scroll-behavior: smooth;}
   .main .main-item .txt-area .txt-tit{font-size: 26px;}
   .main .main-item .txt-area .txt-desc{font-size: 19px;}
   
-  /* evt 1 */
+
   .event1 {margin-top: -70px;}
   .event1 .txt-item {height: 505px;}
   .event1 .evt-list{flex-wrap: wrap; }
@@ -928,7 +816,6 @@ html{scroll-behavior: smooth;}
   .event1 .txt-item .evt-btn a::after{background-size: 90%;}
 
 
-  /* evt2 */
   .event2 {margin: -100px 0 -190px 0;}
   .event2 .evt-header{margin-bottom: 5px;}
   .event2 .txt-item .txt-area {width: 290px;}
@@ -936,11 +823,10 @@ html{scroll-behavior: smooth;}
   .event2 .txt-item .txt-area .txt-desc {font-size: 18px;}
   .event2 .txt-item .txt-area .txt-desc:nth-child(4){margin: 10px 0 0 0;}
 
-  /* 인스타그램 모바일*/
 
   .instagram .tmp-wrap {border-radius: 55px; overflow: hidden;}
   .instagram .insta-list { padding: 40px 0;}
-  .instagram .insta-list .step { margin: 0; }  /* 2번이 찌그러짐*/
+  .instagram .insta-list .step { margin: 0; }  
   .instagram .insta-list .slick-slider{width: 300px;}
   .instagram .slick-slider .slick-arrow{opacity: 0; visibility: hidden; width: 0; height: 0;}
   .instagram .slick-slider .slick-dots {
@@ -957,8 +843,6 @@ html{scroll-behavior: smooth;}
   .tmp-btn .icon-container .icon-left{transform: translateX(-33%);}
   .tmp-btn .icon-container {width: 38px;}
 
-
-  /* 비플픽 */
   .recom .recom-logo img {width: 90%; padding-top: 70px;}
   .recom .trouble-btn, .recom .moisture-btn {font-size: 18px; margin: 40px 5px; }
   .recom .trouble-btn {padding: 10px 0px 10px 30px;}
@@ -972,8 +856,6 @@ html{scroll-behavior: smooth;}
     border-right: 2px solid #b8ae9d;
   }
   .recom .trouble .main-txt, .recom .moisture .main-txt {font-size: 23px; background-size: 12.5em 30px;}
-  /* .recom .moisture .main-txt {font-size: 23px; background-size: 12.5em 30px;} */
-
   .recom .tab-content {min-height: 840px;}
   .recom .recom-list {width: 300px;}
   .recom .slick-slider .slick-arrow{opacity: 0; visibility:hidden; display: none;}
@@ -1001,30 +883,19 @@ html{scroll-behavior: smooth;}
 
 
 
-
-
-  /* FAQ */
-  /* .faq .inner {width: 340px;} */
   .faq .list-item .q-head {font-size: 15px; padding: 15px 6px;}
   .faq .list-item .q-body {font-size: 15px;  padding: 15px 30px 15px 15px;; line-height: 18px;}
-
   .faq .faq-deco span:nth-child(1){width: 180px;}
   .faq .faq-deco span:nth-child(2){width: 80px;}
 
-
-  /* ft */
   .ft{height: auto; padding: 30px 0;}
   .ft .inner {max-width: 330px;}
   .ft .txt-area {padding: 50px 0;}
   .ft .txt-area .txt-tit{font-size: 25px;}
   .ft .txt-area .txt-desc{font-size: 15px;}
 
-  /* 퀵버튼 */
   .quick .inner {right: 0;}
 
-
-  /* modal */
-  /* 화면조정 및 가운데정렬 */
   .modal .modal-box {width: 90%; height: auto;}
   .modal .box-item{height: auto;}
   
@@ -1044,9 +915,6 @@ html{scroll-behavior: smooth;}
   .modal .click-box{list-style: 45px; bottom: 0;}
   .modal .content .click-box {line-height: 50px;}
   .modal .content .click-box p{font-size: 22px;}
-
-
-  /* 바디에 스크롤 막는 방법 */
   .not_scroll{
     position: fixed;
     overflow: hidden;
@@ -1057,10 +925,5 @@ html{scroll-behavior: smooth;}
     position: relative;
     top: 0;
   }
-
-
-
-
-
 
 }
